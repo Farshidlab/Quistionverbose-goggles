@@ -7,7 +7,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 app = Flask(__name__)
 
 # Set your OpenAI API key
-openai.api_key = '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'
+openai.api_key = 'Api Key'
 
 # Load the precomputed document vectors into the vector database (Faiss index)
 dimension = 300  # Dimensionality of the document vectors
